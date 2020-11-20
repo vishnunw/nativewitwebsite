@@ -1,0 +1,34 @@
+.card_style{
+    height: 250px;
+    text-align: center;
+}
+h5 {
+    color: #ff4646;
+    font-weight: 600;
+}
+.home{
+    background: url(assets/bg1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.about{
+    background: url(assets/bg2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.card-title{
+    color: #ff4646;
+    font-weight: 600 !important;
+}
+
+.themebtn{
+    background-color: #ff4646;
+}
+
+.navtext{
+    color: black;
+}
