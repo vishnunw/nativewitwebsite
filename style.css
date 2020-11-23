@@ -32,3 +32,10 @@ h5 {
 .navtext{
     color: black;
 }
+
+.carousel .indicators .indicator-item{
+    background-color:#808080 ;
+}
+.carousel .indicators .indicator-item.active {
+    background-color: #ff4646;
+}

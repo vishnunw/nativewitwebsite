@@ -76,7 +76,7 @@
                         <h5>
                             What we do
                         </h5>
-
+<!-- 
                         <div style="margin-top: 20%;">
                             <h5 style="color: black!important">Mobile App Development</h5>
                             <p>
@@ -86,7 +86,22 @@
                                 <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
                                 <li class="active"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
                               </ul>
-                        </div>
+                        </div> -->
+
+                        <div class="carousel carousel-slider center">
+                            <div class="carousel-item" href="#one!">
+                              <h2>MOBILE APP DEVELOPMENT</h2>
+                              <p>We help businesses transform fast with crossplatform app development using Flutter. With our validated software development process and clean code, we build applications that are secure,scalebale, stable and super smooth.</p>
+                            </div>
+                            <div class="carousel-item" href="#two!">
+                              <h2>SUPPORT & UPGRADE</h2>
+                              <p>Do you have an existing application that needs upgrades? We have a well defined process to make your upgrades swift and clean. With our expertise in delivering and maintaining 80+ applications we have left no stones unturned.</p>
+                            </div>
+                            <div class="carousel-item" href="#three!">
+                              <h2>IDEATION & CONSULATION</h2>
+                              <p>Have a product idea but not sure how to take it to the market? With over 5 years of focused experience in product development we have a team of experts who can make your idea into fruition offering end-to-end solution.</p>
+                            </div>
+                          </div>
                       
                     </div>
                 </div>
@@ -246,6 +261,13 @@
           $('.sidenav').sidenav();
     
         });
+
+        $('.carousel.carousel-slider').carousel({
+            
+    fullWidth: true,
+    indicators: true
+  });
+  $('.carousel').carousel('instance.next', (3));
       </script>
     </body>
   </html>
